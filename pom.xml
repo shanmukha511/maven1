@@ -21,7 +21,7 @@
   </properties>
   <distributionManagement>
     <repository>
-        <id>central</id>
+        <id>release</id>
         <name>shanmukha-releases</name>
         <url>https://shanmukha.jfrog.io/shanmukha/Maven</url>
     </repository>
