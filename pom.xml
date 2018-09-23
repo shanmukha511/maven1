@@ -19,6 +19,16 @@
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
   </properties>
+  <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.4.2</version>
+            </plugin>
+        </plugins>
+      <scm>
+        <developerConnection>scm:git:https://github.com/shanmukha511/maven1.git</developerConnection>
+    </scm>
 <distributionManagement>
     <repository>
         <id>release</id>
