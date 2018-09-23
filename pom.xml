@@ -21,7 +21,7 @@
   </properties>
 <distributionManagement>
     <repository>
-        <id>central</id>
+        <id>release</id>
         <name>shanmukha511-releases</name>
         <url>https://shanmukha511.jfrog.io/shanmukha511/Test1</url>
     </repository>
